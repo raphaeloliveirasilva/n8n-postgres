@@ -43,7 +43,7 @@ services:
       - DB_POSTGRESDB_PASSWORD=${POSTGRES_PASSWORD}
     networks:
       - nginx
-      - postgress-n8n
+      - postgres-n8n
     env_file:
       - .env
     depends_on:
